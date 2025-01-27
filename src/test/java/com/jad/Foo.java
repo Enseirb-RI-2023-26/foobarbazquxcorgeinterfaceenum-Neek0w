@@ -13,7 +13,6 @@ public class Foo implements IFoo {
         this.bars = new ArrayList<>();
         this.qux = new Qux();
         this.corge = null;
-
     }
 
     public IBaz getBaz() {
