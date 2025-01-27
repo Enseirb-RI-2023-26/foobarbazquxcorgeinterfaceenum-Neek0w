@@ -5,7 +5,7 @@ public class Corge implements ICorge {
 
 
     public Corge(IFoo foo) {
-
+        this.foo = foo;
     }
 
     public IFoo getFoo() {
