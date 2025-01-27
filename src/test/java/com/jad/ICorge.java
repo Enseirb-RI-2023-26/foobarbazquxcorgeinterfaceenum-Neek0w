@@ -3,5 +3,5 @@ package com.jad;
 public interface ICorge {
     IFoo getFoo();
 
-    void setFoo();
+    void setFoo(IFoo ifoo);
 }
