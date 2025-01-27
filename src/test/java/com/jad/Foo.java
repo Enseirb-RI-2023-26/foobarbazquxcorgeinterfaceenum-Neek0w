@@ -12,6 +12,7 @@ public class Foo implements IFoo {
         this.baz = baz;
         this.bars = new ArrayList<>();
         this.qux = new Qux();
+        this.corge = null;
 
     }
 
@@ -36,6 +37,6 @@ public class Foo implements IFoo {
     }
 
     public void addBar(IBar bar) {
-
+        this.bars.add(bar);
     }
 }
