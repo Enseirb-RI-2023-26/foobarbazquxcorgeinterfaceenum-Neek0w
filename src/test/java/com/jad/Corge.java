@@ -1,6 +1,6 @@
 package com.jad;
 
-public class Corge implements ICorge {
+public abstract class Corge implements ICorge {
     private IFoo foo;
 
 
