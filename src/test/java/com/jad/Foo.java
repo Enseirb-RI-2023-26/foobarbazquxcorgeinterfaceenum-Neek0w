@@ -11,7 +11,7 @@ public class Foo implements IFoo {
     public Foo(IBaz baz) {
         this.baz = baz;
         this.bars = new ArrayList<>();
-        this.qux = qux;
+        this.qux = new Qux();
 
     }
 
@@ -19,24 +19,12 @@ public class Foo implements IFoo {
         return this.baz;
     }
 
-    public void setBaz(IBaz baz) {
-        this.baz = baz;
-    }
-
     public ArrayList<IBar> getBars() {
         return this.bars;
     }
 
-    public void setBars(ArrayList<IBar> bars) {
-        this.bars = bars;
-    }
-
     public IQux getQux() {
         return this.qux;
-    }
-
-    public void setQux(IQux qux) {
-        this.qux = qux;
     }
 
     public ICorge getCorge() {
